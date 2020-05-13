@@ -51,27 +51,27 @@
       <div class="form">
         <form>
           <div class="form-label">
-            <input type="text" name="firstname" id="firstname" placeholder="FirstName">
-            <p class="error-response">First Name cannot be empty</p>
+            <input type="text" name="firstname" id="firstname" placeholder="FirstName" >
+            <p class="error-response"></p>
           </div>
 
           <div class="form-label">
             <input type="text" name="lastname" id="lastname" placeholder="LastName">
-            <p class="error-response">Last Name cannot be empty</p>
+            <p class="error-response"></p>
           </div>
 
           <div class="form-label">
             <input type="email" name="email" id="email" placeholder="Email Address">
-            <p class="error-response">Looks loke this is not an email</p>
+            <p class="error-response"></p>
           </div>
 
           <div class="form-label">
-            <input type="password" name="pwd" class="error" id="pwd" placeholder="Password">
-            <p class="error-response">Password cannot be empty</p>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <p class="error-response"></p>
           </div>
 
           <div class="form-input">
-            <input type="button" class="input" value="Claim your free trial">
+            <input type="button" class="input" value="Claim your free trial" onclick="checkForm()">
           </div>
           <div class="footer-info">
             By clicking the button, you are agreeing to our <a href="#" class="bold-red">Terms and Services</a>
@@ -91,5 +91,6 @@
     </p>
   </footer>
 </body>
+<script src="assets/js/index.js"></script>
 
 </html>

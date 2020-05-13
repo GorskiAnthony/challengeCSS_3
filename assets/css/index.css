@@ -82,7 +82,7 @@ body {
     text-align: center;
     padding: 1.5em 1.5em;
     border-radius: 0.5em;
-    box-shadow: 0px 3px 0px 0px var(--dark-green);
+    box-shadow: 0px 5px 0px 0px var(--dark-green);
     letter-spacing: 0.2em;
     font-weight: 500;
     font-size: 1em;
@@ -121,6 +121,12 @@ input:not(:placeholder-shown) {
     border: 0.1em solid var(--blue);
 }
 
+.input:active {
+    background-color: var(--green);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
 .error-response {
     font-style: oblique;
     font-size: 0.8em;
@@ -130,5 +136,5 @@ input:not(:placeholder-shown) {
 }
   
 .error {
-    border: 0.1em solid var(--red);
+    border: 0.1em solid var(--red) !important;
 }  
