@@ -45,8 +45,6 @@ function error(propertie, id) {
 
 /** Function isEmpty is boolean if empty return false else true*/
 function isEmpty(id, value) {
-
-    //console.log(id + " : " + regex.test(value));
     
     if(value !== "") {
         /** If value different of empty i test id === email and check my regex */

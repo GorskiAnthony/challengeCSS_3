@@ -138,3 +138,10 @@ input:not(:placeholder-shown) {
 .error {
     border: 0.1em solid var(--red) !important;
 }  
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: inherit;
+        flex-wrap: wrap;
+    }
+}
